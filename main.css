@@ -6,10 +6,12 @@ body{
     
 }
 
+
+
 aside{
     flex-basis: 20%;
     flex-grow: 0;
-	flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .active{
@@ -160,5 +162,16 @@ h5{
     padding: 6px 15px;
     text-decoration: none;
     margin-top: 10px;
-    color: white;
+    color: grey;
 }
+
+@media(max-width: 500px){
+    li{
+        display: inline-block;
+        
+    }
+    body{
+        display: block;
+    }
+}
+   
